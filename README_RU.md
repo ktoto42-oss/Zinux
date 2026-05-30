@@ -24,7 +24,9 @@
 - GNU Make
 
 ```bash
-sudo pacman -S nasm i686-elf-gcc gcc make ld qemu mtools dosfstools dd
+sudo pacman -S nasm make binutils qemu-system-x86 mtools dosfstools
+
+paru -S i686-elf-gcc
 ```
 ---
 
